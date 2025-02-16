@@ -6,10 +6,10 @@ class Event:
         - name (str)
         - start_time (datetime)
         - duration (timedelta)
-    Optional:
-        - labels (set)
+    Optional inputs:
+        - labels (set[str])
         - description (str)
-        - attendees (set)
+        - attendees (set[str])
     """
 
     def __init__(
